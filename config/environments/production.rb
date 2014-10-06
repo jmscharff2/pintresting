@@ -85,9 +85,9 @@ Rails.application.configure do
  config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
-    :bucket => ENV['omr-jmscharff2'],
-    :access_key_id => ENV['AKIAIS5RISXTPI7KD5UQ'],
-    :secret_access_key => ENV['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']
+    :bucket => ENV['AWS_BUCKET'],
+    :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 
 }
