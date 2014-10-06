@@ -51,6 +51,10 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk', '~> 1.20.0'
 
+gem 'jquery-turbolinks'
+
+gem 'masonry-rails'
+
 group :development, :test do
      gem 'sqlite3'
 end
